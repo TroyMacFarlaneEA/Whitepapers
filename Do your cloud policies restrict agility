@@ -1,0 +1,67 @@
+Cloud adoption by its own nature is data-driven and data can be both an asset and a risk for organizations, so companies that fail to properly manage their data are compromising their own success.  Moreover, the assumed risk of cloud service providers interacting with a company’s data in any capacity can lead to companies negatively overcompensating by implementing prescriptive security safeguards that don’t quite fit the organization’s context, and this results in cloud strategy objectives not being met.  Knowing which data requires protection is a prerequisite for any successful cloud strategy, and this mean making an investment in categorizing data, since it is the classification of data that must guide decision making. 
+
+ 
+
+Standards and Regulations for data classification 
+
+When turning to standard bodies for cloud strategy guidance, such as ISO or NIST, companies must balance the intent of standards and their business objectives.  For example, the ISO 27002 standard states that the classification of information should have a protection level in relation to its criticality to the organization and the NIST developed FIPS process focuses on securing data according to confidentiality, availability, and integrity.   
+
+ 
+
+To further complicate the matter, standards-based organizations and cloud service providers have defined their own data classification categories.  A multitude of examples exist, such as “High”, “Medium”, and “Low”; “Tier 1”, “Tier 2”, “Tier 3”; “Public”, “Internal Use”, “Restricted Use”, “Sensitive”; or a scale of 1 to 5 may be implemented to classify data.   
+
+ 
+
+In addition, the example of needing to sustain regulatory compliance for GDPR or CCPA further expands the concern to properly and consistently manage and classify data. 
+
+ 
+
+Classifying with context - the data life cycle 
+
+When a company adopts external standards, then the human element of subjectivity, experience, and interpretation of the standard must be considered.  A company may define a data classification process that is understood and executed differently depending upon the party performing the work.  This can be illustrated by the example of data marked "secret" by the Finance department may be perceived differently by the IT department.  Changing external factors may also influence the classification of data, such as when an "internal" document , as a result of a legal issue, becomes subject to more stringent controls ("legal hold").  When considering that a document may have already been distributed outside of the corporate network then it becomes even more difficult to manage its change in classification.  Routine business operations may also change a document’s status, such as annual sales projections, changing from a draft state in October to a read-only classification in January. 
+
+ 
+
+Managing Cloud meta-data 
+
+Unfortunately, information asset owners are often not always fully aware of the data they hold.  The rapid nature of continuous integration and continuous deployments (CI/CD) within DevOps practices changes the speed at which businesses must respond to data classification concerns. 
+
+ 
+
+Increased business agility through cloud adoption can promote greater integration of data between disparate sources (suppliers, insurers, cloud service providers, etc..) to deliver a single view of a service, a hybrid cloud approach with data stored across multiple cloud service providers, or even the aggregation of data in cloud-based backup-systems means that a company's data has the inherent risk to be exposed to multiple entities.  Therefore, business agility is tied to an effective data classification process. 
+
+ 
+
+In considering the risk of data leaks, data spillage to an unapproved location, perpetually expanding volume and propagation of unstructured data or the transient nature of data during its lifecycle, then the choice to blanket the highest level of security across all data may seem like the best safeguard.    When companies manage this risk by adopting an inflexible data classification approach then they are truly risking meeting their business needs.   
+
+ 
+
+Risk-minded classification 
+
+Simply classifying data does not make it secure or protected.  It is what you do with the data that decides the information's degree of protection.  When assigning the importance of information, it is valuable to also look at why it is important and the consequences of a data leak and loss of confidentiality.  Data classification criteria should be easy to understand and yield consistent results.  Excluding the user from the process potentially offers more opportunities for classification because the process can work faster, with a wider variety of data types and locations. Automated classification provides a classification process that does not include the user. Such tools will either scan or intercept data, apply algorithms to ascertain the categorization of the data, and record the outcome in some way. Automated classification tools appear in many forms and markets: DLP, file analysis, CASB and ECM systems, among others.  
+
+However, companies must assess if a tool’s proprietary format can limit interoperability or cause lock-in to a particular vendor because the portability of the metadata is limited. 
+
+ 
+
+Conclusion and recommendations 
+
+In closing, the fact is that risks attributed to data cannot be eliminated, therefore they must be managed. A key point to remember is that data classification processes were defined as guidance and recommendations instead of inflexible prescriptive standards to follow.  Therefore, a well-defined cloud adoption strategy should account for the appropriate data classification process for their business needs and consider the following recommendations. 
+
+•Consider cloud migration for low sensitive data first and then define an internal approach that can satisfy the needs for higher data classifications 
+
+•	Make users active in the data protection process to help define a process that works for the entire business 
+
+•	Establish data classification rules following a reduced set of classification tiers 
+
+•	Define data profiles that account for the business value, its physical location, and its interface boundaries 
+
+•	Leverage cloud service provider services to support data classification.  For example, Amazon Macie can help customers inventory and classify sensitive and business-critical data stored in AWS. 
+
+•	Implement tagging of cloud assets and labeling with automation tools 
+
+•	Apply encryption to data only where necessary 
+
+•	Understand the business risk of non-compliance to regulations 
+
+ 
