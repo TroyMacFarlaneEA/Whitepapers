@@ -1,0 +1,57 @@
+Hardware Security Module (HSM) 
+
+Public sector CIOs that have a continued need to protect non-public data and maintain regulatory compliance, regardless of whether they handle financial information, citizen profiles, or valuable business data, routinely adopt multiple security safeguards within their organization’s solution architectures. 
+
+ 
+
+One common safeguard is a Hardware Security Module (HSM), which the National Institute of Standards and Technology (NIST) (1) defines as a physical computing device that safeguards and manages cryptographic keys and provides cryptographic processing.  An HSM is, or contains, a cryptographic module. 
+
+ 
+
+An HSM acts as a trust anchor and provides protection for identities, applications, and transactions by ensuring strong encryption, decryption, and authentication for a wide variety of applications.  The HSM includes protection features, such as physical tamper resistance and strong authentication, and in the case of smart cards, an HSM can be physically isolated thereby making it virtually invulnerable to attacks over a network. 
+
+ 
+
+As the Government of Canada (GC) and other public sector partners further advance their digital transformation efforts they will continue to focus on realizing common desired benefits of cloud – agility, elasticity, innovation, service performance, and security.  For many organizations with existing on-premise solutions and data centre investments, they must also consider their existing security posture, such as their on-premise HSM.  Existing on-premise HSM investments would also imply that organizational processes and roles have been defined to manage the usage and operations of the HSM in the organization’s application development practices.  However, each party must assess if their established security safeguards can relate to the realities of cloud adoption.  For instance, can the cloud benefit of agility be met if DevOps teams must continually account for the on-premise HSM for every cryptographic function?  If the on-premise HSM is a physical asset set to a finite size, then how can the organization obtain the cloud benefit of elasticity?  The two preceding impediments will then largely reduce the ability to innovate in the public sector.  Furthermore, the market trend of a multi-cloud adoption model with several cloud service providers (2), or changes to existing human resource policies regarding remote workers and tele-work, further expand the need to define a way to integrate what is working well on-premise with the advantages of cloud.  Therefore, the challenge of integrating on-premise HSMs with cloud services is a common public sector interoperability problem to address for any organization seeking to obtain the benefits attributed to cloud adoption. 
+
+ 
+
+HSM capabilities can be obtained in multiple delivery formats and each model provides its own set of advantages and disadvantages that decision makers must carefully weigh against each other.  For example, the following three delivery models highlight the choice that is available. 
+
+ 
+
+On-premise HSM 
+
+This is the model typically supporting legacy IT where a physical HSM is within a company’s data centre and managed by their IT operations.  This model is capable of achieving FIPS 140-2 Level 4 certification. 
+
+Public Cloud Service Provider HSM 
+
+This type of HSM is a cloud-hosted hardware security module service on a cloud service provider’s platform, such as AWS or Google.  This model normally permits the hosting of encryption keys and perform cryptographic operations in FIPS 140-2 Level 3 certified HSMs.  This model follows a fully managed service, where sensitive workloads can be protected without the need to worry about the operational overhead of managing an HSM cluster. 
+
+3rd Party HSM-as-a-Service 
+
+This model is an alternative to on-premises HSM or a Public Cloud Service Provider HSM. It uses a private connection between the provider and the client, thereby offering on-premise HSM-grade security for key management and the consistency of a single administrative environment, regardless of where encryption keys are used. 
+
+ 
+
+The common problem that public sector partners face is how to best protect and manage “the keys to the kingdom” in a distributed environment where applications can be designed for on-premise, purely as cloud-native, or a hybrid IT architecture with an application’s individual workloads distributed across both on-premise data centres within the direct control of IT Operations and within public cloud services under the control of the cloud service provider. 
+
+ 
+
+In the Federal context, there may be islands of cloud-native applications but cloud-ground connectivity could be assumed for the majority of use cases.  Therefore, CIOs having increased choice of services must also accept the increased responsibility to manage their technology portfolio.  For instance, CIOs must consider the need to not encourage the proliferation of siloed security processes from legacy IT operations and new cloud operations.  CIOs know that data needs to be protected over the course of its entire lifecycle regardless of logical or physical destination, and with the ability to choose multiple cloud service providers then the public sector may succumb to additional risk vectors, created by distinct APIs, different functionality, separate patch and release updates that are led by each cloud service provider.  The lack of a single pane of glass for IT Operations to monitor and manage all HSMs may produce unanticipated risk vectors for public sector architectures. 
+
+ 
+
+In summary, public sector CIOs should demand a ‘hardware’ degree of security and performance with the ‘software’ degree of usability and agility.  The business goal should be to advocate the continued need to push regulatory and compliance needs across the enterprise and not settle for excuses based on process problems or perceived technology limitations. 
+
+ 
+
+References: 
+
+Barker, E. and Barker, W., 2020. Recommendation For Key Management. [online] NIST.gov. Available at: <https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt2r1.pdf> [Accessed 16 June 2020]. 
+
+IDC: The premier global market intelligence company. 2020. IDC Predicts Hybrid And Multi Cloud To Dominate And Managed Cloud Adoption To Rise In Asia/Pacific* By 2020. [online] Available at: <https://www.idc.com/getdoc.jsp?containerId=prAP46093220> [Accessed 16 June 2020]. 
+
+ 
+
+ 
